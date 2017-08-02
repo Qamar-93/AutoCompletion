@@ -1,2 +1,2 @@
-# AutoCompletion
-Pied-Piper Auto-Completion 
+# Pied-Piper-Autocomplete
+Auto-completion project

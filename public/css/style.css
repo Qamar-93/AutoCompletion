@@ -1,0 +1,133 @@
+
+/*Start General roles*/
+body{
+	background-color: #fff;
+	margin: 0;
+	font-family: 'Droid Sans', sans-serif;
+	    line-height: 1.42857143;
+}
+#container{
+	width: 72%;
+	margin: 0 auto;
+}
+/*End General roles*/
+
+/* Start backgorund image */ 
+.cover-head {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+	background-image: url("../img/cover.jpg");
+}
+
+/* End backgorund image */ 
+
+/*Start form style */ 
+.form-panel{
+	text-align: center;
+}
+
+.form-panel input{
+	width: 282px;
+    height: 36px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 4px;
+    color: rgba(0, 0, 0, 0.86);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+.form-panel button{
+    color: #ccc;
+    background: #076700;
+    border: none;
+    border-radius: 2px;
+    font-weight: 900;
+    padding: 12px 28px;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+.form-panel input, .form-panel button{
+	display: block ;
+	margin: 5px auto;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(100, 100, 101, 0.5);
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(100, 100, 101, 0.5);
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(100, 100, 101, 0.5);
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: rgba(100, 100, 101, 0.5);
+}
+
+/*End form style */
+
+/*Start h1 syle*/
+h1{
+ color: #fff;
+ text-align: center;
+ font-family: 'Acme', sans-serif;
+ font-size: 48px
+
+}
+h1 span{
+	color: #007502;
+	font-size: 57px;
+}
+/*End h1 style*/
+
+/*Start media query*/
+	@media screen and (max-width: 480px) {
+    	span{
+    		display: block;
+    	}
+}
+/*query media query*/
+
+/*Start datalist style*/
+
+datalist{
+	width: 100%;
+}
+
+
+input::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+
+/*End datalist style*/
+
+
+/*start university detials style*/
+#uni-details{
+    color:  rgba(0, 0, 0, 0.86);
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.8);
+    /* display: inline; */
+    margin: 0 auto;
+    width: 282px;
+    margin-top: 25px;
+    border-radius: 4px;
+    word-wrap: normal;
+}
+#uni-details a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.86);
+    display: inline-block;
+}
+
+
+#uni-details a h2{
+    margin: 0;
+}
+/*end university detials style*/

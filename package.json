@@ -1,0 +1,30 @@
+{
+  "name": "university-list",
+  "version": "1.0.0",
+  "description": "Universities Auto-completion project",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FACG2/Pied-Piper-Autocomplete.git"
+  },
+  "author": "Pied-Piper-team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FACG2/Pied-Piper-Autocomplete/issues"
+  },
+  "homepage": "https://github.com/FACG2/Pied-Piper-Autocomplete#readme",
+  "dependencies": {
+    "node": "^8.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "tape": "^4.8.0"
+  }
+}
